@@ -2,7 +2,7 @@
 This project contains source codes of what is needed to run modern Action Quake 2 server:
 * aq2-tng https://github.com/Raptor007/aq2-tng
 * q2pro https://github.com/skullernet/q2pro
-* q2admin https://github.com/stan0x/q2admin
+* q2admin https://github.com/m4son/q2admin
 
 # Setup
 Just run `docker-compose up -f` and it will build and the server.
