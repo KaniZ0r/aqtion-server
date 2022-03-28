@@ -6,4 +6,4 @@
 	url = https://github.com/skullernet/q2pro
 [submodule "q2admin"]
 	path = q2admin
-	url = https://github.com/stan0x/q2admin
+	url = https://github.com/m4son/q2admin
