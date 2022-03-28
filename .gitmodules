@@ -1,0 +1,9 @@
+[submodule "aq2-tng"]
+	path = aq2-tng
+	url = https://github.com/Raptor007/aq2-tng
+[submodule "q2pro"]
+	path = q2pro
+	url = https://github.com/skullernet/q2pro
+[submodule "q2admin"]
+	path = q2admin
+	url = https://github.com/stan0x/q2admin

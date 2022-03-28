@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  server:
+    container_name: aq2
+    build: .
+    volumes:
+      - ./aq2server/maps/:/aq2server/action/maps/
+    ports:
+      - "27910:27910/udp"
+    command: ./q2proded +set game action +exec config/aq2_tp.cfg
+    stdin_open: true
+    tty: true
+    restart: on-failure:5 
