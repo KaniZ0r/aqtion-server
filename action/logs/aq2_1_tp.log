@@ -1,0 +1,7 @@
+[2022-04-07 07:08] Logging console to logs/aq2_1_tp.log
+[2022-04-07 07:08] Execing mode_teamplay.cfg
+[2022-04-07 07:08] Can't access ./action/gamex86_64.so: No such file or directory
+[2022-04-07 07:08] Can't access ./baseq2/gamex86_64.so: No such file or directory
+[2022-04-07 07:08] ********************
+[2022-04-07 07:08] ERROR: Failed to load game library
+[2022-04-07 07:08] ********************
