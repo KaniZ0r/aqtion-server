@@ -94,6 +94,13 @@ echo "set tkbanrounds $TKBANROUNDS" >> /aq2server/action/config.cfg
 echo "set twbanrounds $twbanrounds" >> /aq2server/action/config.cfg
 echo "set ff_afterround $FF_AFTERROUND" >> /aq2server/action/config.cfg
 
+# Download settings
+echo "set allow_download $ALLOW_DOWNLOAD" >> /aq2server/action/config.cfg
+echo "set allow_download_skins $ALLOW_DOWNLOAD_SKINS" >> /aq2server/action/config.cfg
+echo "set allow_download_players $ALLOW_DOWNLOAD_PLAYERS" >> /aq2server/action/config.cfg
+echo "set allow_download_pics $ALLOW_DOWNLOAD_PICS" >> /aq2server/action/config.cfg
+echo "set allow_download_sounds $ALLOW_DOWNLOAD_SOUNDS" >> /aq2server/action/config.cfg
+
 # General settings
 echo "set dmflags $DMFLAGS" >> /aq2server/action/config.cfg
 echo "set punishkills $PUNISHKILLS" >> /aq2server/action/config.cfg
