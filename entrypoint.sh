@@ -101,6 +101,17 @@ echo "set allow_download_players $ALLOW_DOWNLOAD_PLAYERS" >> /aq2server/action/c
 echo "set allow_download_pics $ALLOW_DOWNLOAD_PICS" >> /aq2server/action/config.cfg
 echo "set allow_download_sounds $ALLOW_DOWNLOAD_SOUNDS" >> /aq2server/action/config.cfg
 
+# Video checking
+echo "set video_check $VIDEO_CHECK" >> /aq2server/action/config.cfg
+echo "set video_force_restart $VIDEO_FORCE_RESTART" >> /aq2server/action/config.cfg
+echo "set video_check_lockpvs $VIDEO_CHECK_LOCKPVS" >> /aq2server/action/config.cfg
+echo "set video_check_glclear $VIDEO_CHECK_GLCLEAR" >> /aq2server/action/config.cfg
+echo "set video_check_gldynamic $VIDEO_CHECK_GLDYNAMIC" >> /aq2server/action/config.cfg
+echo "set video_checktime $VIDEO_CHECKTIME" >> /aq2server/action/config.cfg
+echo "set video_max_3dfx \"$VIDEO_MAX_3DFX\"" >> /aq2server/action/config.cfg
+echo "set video_max_3dfxam \"$VIDEO_MAX_3DFXAM\"" >> /aq2server/action/config.cfg
+echo "set video_max_opengl \"$VIDEO_MAX_OPENFL\"" >> /aq2server/action/config.cfg
+
 # General settings
 echo "set dmflags $DMFLAGS" >> /aq2server/action/config.cfg
 echo "set punishkills $PUNISHKILLS" >> /aq2server/action/config.cfg
