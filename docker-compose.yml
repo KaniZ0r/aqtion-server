@@ -2,11 +2,11 @@ version: "3"
 
 services:
   server:
-    container_name: aq2
+    container_name: "AQtion server"
     build: .
     ports:
       - "27910:27910/udp"
-    command: ./q2proded +set game action +exec aq2_1_tp.cfg
     stdin_open: true
     tty: true
     restart: on-failure:5 
+
