@@ -43,7 +43,6 @@ echo "set ppl_idletime $PPL_IDLETIME" >> /aq2server/action/config.cfg
 echo "set radiolog $RADIOLOG" >> /aq2server/action/config.cfg
 echo "set use_voice $USE_VOICE" >> /aq2server/action/config.cfg
 echo "set use_ghosts $USE_GHOSTS" >> /aq2server/action/config.cfg
-echo "set sv_crlf $SV_CRLF" >> /aq2server/action/config.cfg
 
 # Map rotation
 echo "set actionmaps $ACTIONMAPS" >> /aq2server/action/config.cfg
@@ -78,6 +77,16 @@ echo "set kickvote_pass $KICKVOTE_PASS" >> /aq2server/action/config.cfg
 echo "set kickvote_tempban $KICKVOTE_TEMPBAN" >> /aq2server/action/config.cfg
 echo "set vk_public $VK_PUBLIC" >> /aq2server/action/config.cfg
 echo "set kv_public $KV_PUBLIC" >> /aq2server/action/config.cfg
+
+# Flood protection
+echo "set flood_msgs $FLOOD_MSGS" >> /aq2server/action/config.cfg
+echo "set flood_persecond $FLOOD_PERSECOND" >> /aq2server/action/config.cfg
+echo "set flood_waitdelay $FLOOD_WAITDELAY" >> /aq2server/action/config.cfg
+echo "set radio_repeat $RADIO_REPEAT" >> /aq2server/action/config.cfg
+echo "set radio_ban $RADIO_BAN" >> /aq2server/action/config.cfg
+echo "set radio_time $RADIO_TIME" >> /aq2server/action/config.cfg
+echo "set radio_max $RADIO_MAX" >> /aq2server/action/config.cfg
+echo "set sv_crlf $SV_CRLF" >> /aq2server/action/config.cfg
 
 # General settings
 echo "set dmflags $DMFLAGS" >> /aq2server/action/config.cfg
