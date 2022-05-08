@@ -88,6 +88,12 @@ echo "set radio_time $RADIO_TIME" >> /aq2server/action/config.cfg
 echo "set radio_max $RADIO_MAX" >> /aq2server/action/config.cfg
 echo "set sv_crlf $SV_CRLF" >> /aq2server/action/config.cfg
 
+# Teamkill parameters
+echo "set maxteamkills $MAXTEAMKILLS" >> /aq2server/action/config.cfg
+echo "set tkbanrounds $TKBANROUNDS" >> /aq2server/action/config.cfg
+echo "set twbanrounds $twbanrounds" >> /aq2server/action/config.cfg
+echo "set ff_afterround $FF_AFTERROUND" >> /aq2server/action/config.cfg
+
 # General settings
 echo "set dmflags $DMFLAGS" >> /aq2server/action/config.cfg
 echo "set punishkills $PUNISHKILLS" >> /aq2server/action/config.cfg
